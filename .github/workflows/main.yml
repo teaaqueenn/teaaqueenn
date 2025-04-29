@@ -1,0 +1,34 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"  # Daily at 6 AM UTC
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: your-github-username
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Taipei
+
+          # 🔤 Languages
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_threshold: 2%
+
+          # 🧠 Coding habits
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_charts: yes
+          plugin_habits_facts: yes
+
+          # 📅 Flat commit calendar
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
