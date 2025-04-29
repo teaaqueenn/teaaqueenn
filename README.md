@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 
-![Metrics](https://raw.githubusercontent.com/teaaqueenn/teaaqueenn/main/metrics.svg)
+![Metrics]([https://raw.githubusercontent.com/teaaqueenn/teaaqueenn/main/metrics.svg](https://github.com/teaaqueenn/teaaqueenn/blob/main/github-metrics.svg))
 
 <!--
 **teaaqueenn/teaaqueenn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
