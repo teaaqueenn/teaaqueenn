@@ -1,8 +1,6 @@
-## Hi there 👋
+## Hi I'm Grace :)
 
-
-![Metrics]([https://raw.githubusercontent.com/teaaqueenn/teaaqueenn/main/metrics.svg](https://github.com/teaaqueenn/teaaqueenn/blob/main/github-metrics.svg))
-
+I wrote my first lines of code in 5th grade while competing in FIRST LEGO League, and soon after, I built a (very buggy) video game in JavaScript. Although I took a break from programming during middle school, I rediscovered my passion for coding in high school and have been building ever since.
 <!--
 **teaaqueenn/teaaqueenn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
